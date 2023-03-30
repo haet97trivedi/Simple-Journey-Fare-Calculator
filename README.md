@@ -15,10 +15,12 @@ The script provides the following functionalities:
 
 1. write_age_price(): This function takes the age of the client as input and calculates the fare according to the following criteria:
 
-0-2 years: free
-3-12 years: £7
-13-65 years: £18
-66+ years: £13
+<ul>
+<li>0-2 years: free</li>
+<li>3-12 years: £7</li>
+<li>13-65 years: £18</li>
+<li>66+ years: £13</li>
+</ul>
 
 The fare is then stored in the Travel table in the TravelPrice.db database.
 
